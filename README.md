@@ -139,6 +139,7 @@ zadanie 7
 // Spróbuj pobrać z bazy wartość, która nie istnieje w tej bazie.
 
 curl -i -XGET http://localhost:8098/buckets/s16585/keys/jan
+
 HTTP/1.1 404 Object Not Found
 Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
 Date: Mon, 13 Jun 2022 01:38:06 GMT
